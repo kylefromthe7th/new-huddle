@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: #325BFC;
+    background: linear-gradient(#325BFC, #192E7E);
+    z-index: 1;
+}
+
+.navbar {
+    background-color: #012CD5;
+    width: 100vw;
+    height: 50px;
+    z-index: 3;
+}
+
+
+.logo {
+    float: left;
+    font-family: "Lemon Jelly Personal Use", sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 108px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+.links {
+    float: right;
+    margin: 11px 89px 1px 1px;
+}
+
+a {
+    padding-right: 35px;
+}
+
+h1.header{
+    width: 47%;
+    font-weight: bold;
+    font-size: 2.9em;
+    line-height: 130%;
+}
+
+p.script{
+    width: 47%;
+    font-size: em;
+    margin-top: 7px;
+}
+
+.content-box{
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 200px;
+    text-align: left;
+}
+
+h1, p, a {
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.signup {
+    float: right;
+    background-color: #00B9FF;
+    width: 25%;
+    height: 7%;
+    border-radius: 69px;
+    font-size: 33px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row{
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.row p{
+    size: em;
+    color: black;
+}
